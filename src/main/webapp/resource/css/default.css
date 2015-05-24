@@ -1,0 +1,105 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.form-signin .form-signin-heading,.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="text"],.form-signin input[type="password"] {
+    font-size: 16px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+
+#chatroom {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    width: 300px;
+}
+
+#scroll {
+    height: 300px;
+    width: 880px;
+    overflow-y: auto;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    border: 2px solid deepskyblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.received {
+    margin: 5px;
+    padding: 10px;
+    width: 160px;
+    font-size: 10px;
+}
+
+.user {
+    padding: 5px;
+    background: #5385cd;
+    color: #fff;
+    width: 90px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+.user2 {
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+}
+
+.massage {
+    margin: 5px;
+    padding: 10px;
+    width: 600px;
+    background-color: #ffffff;
+
+}
+
+.input {
+    min-height: 60px;
+    overflow-y: scroll;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ddd {
+    min-height: 40px;
+    max-height: 40px;
+    min-widtht: 200px;
+    max-width: 200px;
+    float: right;
+}
